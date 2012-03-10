@@ -3,14 +3,10 @@
 import unittest
 
 def countdownFrom(startPoint):
-	if startPoint == 3:
-		return [startPoint, startPoint - 1, startPoint - 2, startPoint - 3]
-	elif startPoint == 2:
-		return [startPoint, startPoint - 1, startPoint - 2]
-	elif startPoint == 1:
-		return [startPoint, startPoint - 1]
-	else:
-		return [ 0 ]
+	result = []
+	for index in range (startPoint + 1):
+		result += [startPoint - index]
+	return result
 
 class CountdownKataTest(unittest.TestCase):
 	def test_method(self):
