@@ -4,7 +4,7 @@ import unittest
 
 def countdownFrom(startPoint):
 	if startPoint == 2:
-		return [2, 1, 0]
+		return [startPoint, startPoint - 1, startPoint - 2]
 	elif startPoint == 1:
 		return [startPoint, startPoint - 1]
 	else:
