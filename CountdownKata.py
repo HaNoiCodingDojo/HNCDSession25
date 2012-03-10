@@ -3,10 +3,10 @@
 import unittest
 
 def countdownFrom(startPoint):
-	if startPoint == 1:
-		return [1, 0]
 	if startPoint == 2:
 		return [2, 1, 0]
+	elif startPoint == 1:
+		return [startPoint, startPoint - 1]
 	else:
 		return [startPoint]
 
