@@ -2,7 +2,9 @@
 
 import unittest
 
-def 
+def countdownFrom(startPoint):
+	return [startPoint]
+
 class CountdownKataTest(unittest.TestCase):
 	def test_method(self):
 		self.assertEqual(True, True)
