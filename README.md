@@ -10,7 +10,7 @@
 
 #One liners to do CountdownKata
 
-Python : ?
-Smalltalk : (10 to:0 by: -1) asArray
-Ruby : ?
-Haskell : ?
+- Python : ?
+- Smalltalk : (10 to:0 by: -1) asArray
+- Ruby : ?
+- Haskell : ?
