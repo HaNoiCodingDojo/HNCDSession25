@@ -1,0 +1,1 @@
+'From Pharo1.4a of ''16 June 2011'' [Latest update: #14386] on 12 March 2012 at 9:18:43 am'!!Integer methodsFor: 'as yet unclassified' stamp: 'SergeStinckwich 3/10/2012 15:45'!countdown(self = 0) ifTrue:[^ {0}]ifFalse:[^ {self} , (self - 1) countdown.].! !
