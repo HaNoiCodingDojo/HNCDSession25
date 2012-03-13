@@ -1,0 +1,3 @@
+[submodule "countdown-clojure"]
+	path = countdown-clojure
+	url = git@github.com:HaNoiCodingDojo/HNCDSession25-Clojure.git
